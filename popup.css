@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  width: 200px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+#password-strength {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#suggestions {
+  margin-top: 10px;
+  color: red;
+}

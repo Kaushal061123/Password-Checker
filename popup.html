@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div>
+      <label for="password">Enter a password:</label>
+      <input type="password" id="password" />
+    </div>
+    <div>
+      <input type="checkbox" id="show-password" />
+      <label for="show-password">Show Password</label>
+    </div>
+    <div>
+      <button id="check-password">Check Password Strength</button>
+    </div>
+    <div id="password-strength"></div>
+    <div id="suggestions"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
